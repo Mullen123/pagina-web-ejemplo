@@ -1,0 +1,96 @@
+
+/*esto es lo global*/
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial
+}
+
+
+
+nav{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+nav a{
+    font-size: 25px;
+    display: block;
+    color:#3498DB; 
+    padding-left: 150px;
+
+    text-decoration: none;
+
+}
+
+/*centramos todo lo de la pagina*/
+
+}
+header{
+    background: #fff;
+    height: 60px;
+}
+
+.home{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+
+    flex:1;
+    min-width: 265px;
+}
+
+/* esto le da las caracteristicas a lo del lado izquierdo
+.in-flex:first-child{
+        flex:2;
+    padding: 25px;
+    background: #fff;
+    margin: 20px;
+
+    text-align: justify;
+
+}*/
+
+.in-flex div{
+    padding: 25px;
+    background: #fff;
+    margin: 20px;
+    text-align: justify;
+}
+footer{
+    background: black;
+    color: white;
+    height: 120px;
+    padding:25px;
+    clear:both;/*rompe la propiedas float left*/ 
+    
+}
+
+ .top{
+   margin-left: 1200px;
+   margin-bottom: 500px;
+}
+
+/*altura del slider*/
+.bx-wrapper, .bx-viewport{
+    flex:1;
+    height: 250px !important;
+}
+
+
+
+/*este apartado es para la parte de cambio de temas*/
+
+
+#to-green{
+
+    background: #D5F5E3 ;
+}
+
+#to-blue{
+    background:#AED6F1;
+
+}
